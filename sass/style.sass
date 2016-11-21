@@ -1,6 +1,4 @@
 @import "bourbon"
-@import "vars"
-@import "libs"
 
 $em-base: 13px !global
 
@@ -513,6 +511,8 @@ footer
 /* jQuery Form Styler */
 
 .jq-selectbox
+  li
+    padding: 5px 20px 5px 35px
   &__select
     font-size: 18px
     border: 1px solid #9d9d9d
@@ -533,6 +533,11 @@ footer
     width: 12px
     height: 7px
     background: url(/img/img_form_arrow_1.jpg.png) no-repeat center
+
+.select-eco
+  &:before
+    font-family: iconfont
+    content: "\e924"
 
 .jq-checkbox
   top: 0
@@ -631,6 +636,5 @@ footer
     background-color: #166888
     span
       transform: rotate(90deg)
-
 
 @import "media"
