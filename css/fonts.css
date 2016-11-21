@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLight/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/Roboto-Light.woff") format("woff"), url("../fonts/RobotoLight/Roboto-Light.ttf") format("truetype"), url("../fonts/RobotoLight/Roboto-Light.svg#Roboto") format("svg"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/RobotoMedium/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/Roboto-Medium.woff") format("woff"), url("../fonts/RobotoMedium/Roboto-Medium.ttf") format("truetype"), url("../fonts/RobotoMedium/Roboto-Medium.svg#Roboto") format("svg"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/RobotoBold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/Roboto-Bold.woff") format("woff"), url("../fonts/RobotoBold/Roboto-Bold.ttf") format("truetype"), url("../fonts/RobotoBold/Roboto-Bold.svg#Roboto") format("svg"); }
+
+@font-face {
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/iconfont/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont/icomoon.woff") format("woff"), url("../fonts/iconfont/icomoon.ttf") format("truetype"), url("../fonts/iconfont/icomoon.svg#iconfont") format("svg"); }
