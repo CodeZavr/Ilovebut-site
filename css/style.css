@@ -1312,7 +1312,7 @@ button {
 
 /* MAIN STYLES */
 body {
-  background: url(/img/img_wrapper-bg_1.jpg) no-repeat center center fixed;
+  background: url(../img/img_wrapper-bg_1.jpg) no-repeat center center fixed;
   background-size: cover; }
 
 .main-wrapper {
@@ -1721,7 +1721,7 @@ footer {
           transform: translate(-50%);
   width: 12px;
   height: 7px;
-  background: url(/img/img_form_arrow_1.jpg.png) no-repeat center; }
+  background: url(../img/img_form_arrow_1.jpg.png) no-repeat center; }
 
 .jq-checkbox {
   top: 0;
