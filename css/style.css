@@ -1565,15 +1565,15 @@ header {
       background: #aa4141; }
 
 .select-eco .jq-selectbox__select-text {
-  background: url(/img/img_select_1.png) no-repeat 0 7px;
+  background: url(../img/img_select_1.png) no-repeat 0 7px;
 }
 
 .select-vip .jq-selectbox__select-text {
-  background: url(/img/img_select_1.png) no-repeat 0 7px;
+  background: url(../img/img_select_1.png) no-repeat 0 7px;
 }
 
 .select-elite .jq-selectbox__select-text {
-  background: url(/img/img_select_1.png) no-repeat 0 7px;
+  background: url(../img/img_select_1.png) no-repeat 0 7px;
 }
 
 .list-check {
