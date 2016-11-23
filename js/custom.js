@@ -76,7 +76,9 @@ $(function(){
 	}
 
 	// slick bg
-	$('.box-slider').slick('setPosition');
+	var maxWidth = viewport().width, maxHeight = viewport().height;
+	$('.box-slider__slide').css({'width':maxWidth, 'height':maxHeight})
+	$('.box-slider').slick();
 	
 
 });
