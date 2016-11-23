@@ -14,15 +14,32 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
 	/**/
-	.input-pad
-		margin: 0
-		padding: 0
-	.order-form__label
-		margin-bottom: 10px
+	.box-field-50
+		width: 100%
+		clear: both
+		&:first-child
+			margin-bottom: 18px
+	.form-control
+		&_date
+			width: 100%
+	.box-field
+		&__label
+			&_in
+				padding-left: 0
 
 @media only screen and (max-width : 1145px)
 	.nav-info
 		margin-right: 20px
+
+@media only screen and (max-width : 998px)
+	.gallery
+		&__item
+			width: 47%
+			margin-right: 5%
+			&:nth-child(2n)
+				margin-right: 0
+			&:nth-child(odd)
+				margin-right: 5%
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
@@ -55,11 +72,7 @@
 				padding: 0
 				margin-top: 10px
 
-
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px)
-	/**/
+@media only screen and (max-width : 900px)
 	.box-inf
     width: 100%
     clear: both
@@ -67,10 +80,19 @@
     margin-bottom: 20px
 	.order-form
 		margin: 0 auto
+	.box-field
+		&_cash
+			text-align: center
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
 	.footer
 		&__callback
 			float: none
 			text-align: center
+			margin-bottom: 15px
 		&__about
 			float: none
 			text-align: center
@@ -107,10 +129,17 @@
 			width: 100%
 		&__img
 			width: 100%
-	.order-form
-		&__field
-			&_cash
-				text-align: center
+	.box-field
+		&__label
+			display: block
+			margin-bottom: 10px
+			&_in2
+				padding-left: 0
+				margin-top: 19px
+		&__input
+			margin: 0
+			padding: 0
+
 		
 
 @media only screen and (max-width : 408px)
